@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to My App</title>
+    <link rel="stylesheet" type="text/css" th:ref = "@{/webjars/bootstrap/css/bootstrap.min.css}"/>
+</head>
+<body>
+<div class = "container-fluid text-center" align="center">
+    <h1>A random web app</h1>
+    <a href="/users" th:ref="@/users">User management</a>
+</div>
+</body>
+</html>
